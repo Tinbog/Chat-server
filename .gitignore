@@ -1,0 +1,11 @@
+build/
+*.o
+*.exe
+*.tar.gz
+*.log
+.DS_Store
+
+# 前端
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/

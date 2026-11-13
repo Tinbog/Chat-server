@@ -1,0 +1,5 @@
+# 在 Git Bash 里，进入项目目录
+scp -r ./main.cpp ./CMakeLists.txt root@47.120.66.239:/root/chat-server/
+
+
+rsync -avz --exclude 'build/' --exclude '.git/' ./ root@47.120.66.239:/root/chat-server/
